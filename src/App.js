@@ -1,10 +1,11 @@
 import './App.css';
+import FetchUser from './components/FetchUser';
 
 function App() {
   return (
-    <div>
-      <h1>Hello!</h1>
-    </div>
+    <>
+      <FetchUser />
+    </>
   );
 }
 
